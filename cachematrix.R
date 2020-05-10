@@ -1,7 +1,8 @@
 ## Put comments here that give an overall description of what your
-## functions do
+## There are two functions defined in this file 
+## That cache variable into environment
 
-## Write a short comment describing this function
+## makeCacheMatrix, sets the variable and saves to environment
 
 makeCacheMatrix <- function(x = matrix()) {
     inverse <- NULL
@@ -18,7 +19,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## CacheSolve, gets the result of matrix inverse, if it is cached then gets from memory
+## otherwise computes and stores
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
